@@ -46,13 +46,13 @@
 		var url="index2.html";
         
         function updateTimer() {
-            const minutes = Math.floor(timeLeft / 35);
+            const minutes = Math.floor(timeLeft / 40);
             const seconds = timeLeft % 60;
             timerText.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
             
             if (timeLeft > 0) {
                 timeLeft--;
-                setTimeout(updateTimer, 0760);
+                setTimeout(updateTimer, 0860);
             }
 			
 			  if (timeLeft == 0) {
