@@ -46,7 +46,7 @@
 		var url="index2.html";
         
         function updateTimer() {
-            const minutes = Math.floor(timeLeft / 100);
+            const minutes = Math.floor(timeLeft / 50);
             const seconds = timeLeft % 60;
             timerText.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
             
